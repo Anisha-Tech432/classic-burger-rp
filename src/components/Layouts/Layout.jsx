@@ -8,7 +8,7 @@ function Layout({children}) {
   <>
   <Header />
   <div>{children}</div>
-   <Footer />
+   <Footer />git push -u origin main
  </>
   )
 }
