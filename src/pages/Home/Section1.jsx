@@ -3,7 +3,6 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import Burger from "../../assets/images/hero/hero-2.png";
 import { Link } from 'react-router-dom';
-import { height } from '@fortawesome/free-solid-svg-icons/fa0';
 
 
 function Section1() {

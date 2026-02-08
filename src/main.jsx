@@ -5,14 +5,13 @@ import App from './App';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+    <BrowserRouter basename="/FoodDelivery-RP">
     <App />
   </BrowserRouter>
 );
