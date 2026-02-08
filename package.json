@@ -1,16 +1,13 @@
 {
   "name": "my-app",
-  "homepage": "https://Anisha-Tech432.github.io/Burger-Delivery-RP/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.2.0",
