@@ -445,8 +445,18 @@ color: var(--brown);
 @media (max-width:767px) {
     /* Home Hero 1.0 */
     .hero_section .hero_text h1{
-        font-size: 5.5rem;
+        font-size: 4.5rem;
     }
+
+   @media (max-width: 320px) {
+    .about_section {
+        padding-top: 30px;
+        padding-bottom: 80px;
+        background-position: center top;
+        background-size: cover;
+    }
+   }
+
 
     /* Home Menu 3.0 */ 
     .menu_section .para{
