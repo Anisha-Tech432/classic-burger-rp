@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+"scripts": {
+  "install-all": "cd my-app && npm install",
+  "build": "cd my-app && vite build",
+  "dev": "cd my-app && vite",
+  "preview": "cd my-app && vite preview"
 },
+
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.2.0",
